@@ -1,6 +1,5 @@
 
 import './App.css';
-import { defaultTheme, Provider } from "@adobe/react-spectrum";
 import Layout from './Components/Layout';
 import Airports from './Pages/Airports';
 import { BrowserRouter, Routes, Route } from "react-router-dom";

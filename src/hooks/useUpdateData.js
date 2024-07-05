@@ -7,7 +7,7 @@ import { URL } from "../helper/helper";
 const useUpdateData = (close) => {
     const [loadUpdate, setLoadUpdate] = useState(false);
 
-    const { details, setDetails, airports, setAirports } = useContext(context);
+    const { details,  setAirports } = useContext(context);
 
     const updateData = async (close) => {
         try {

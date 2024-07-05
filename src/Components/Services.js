@@ -13,7 +13,7 @@ import {
 } from "@adobe/react-spectrum";
 import { MdDeleteOutline } from "react-icons/md";
 import { context } from "../context/ContextProvider";
-import { FaArrowTrendUp, FaTruckFieldUn } from "react-icons/fa6";
+
 import useAddServices from "../hooks/useAddServices";
 
 const Services = () => {

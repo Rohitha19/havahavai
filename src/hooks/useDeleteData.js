@@ -1,4 +1,4 @@
-import React,{useContext,useState} from 'react';
+import {useContext,useState} from 'react';
 import { context } from "../context/ContextProvider";
 import { toast } from "react-hot-toast";
 import axios from "axios";
@@ -9,7 +9,7 @@ const useDeleteData = () => {
     const [loadDelete, setLoadDelete] = useState(false);
     const [deleteId, setDeleteId] = useState(0);
 
-    const { details, setDetails, airports, setAirports } = useContext(context);
+    const { setAirports } = useContext(context);
 
     const deleteData = async (id) => {
         try {
